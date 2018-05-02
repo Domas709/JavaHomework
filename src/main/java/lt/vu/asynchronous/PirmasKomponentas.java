@@ -12,11 +12,11 @@ import java.util.Date;
 
 public class PirmasKomponentas {
 
-    @Inject
-    private Antras antras;
-
+    //@Inject private Antras antras;
+    //hello
 
     public String sakykLabas() {
+        //System.out.println(antras.getClass().getName());
         return "Labas " + new Date() + " " + toString();
     }
 

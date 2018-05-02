@@ -24,8 +24,8 @@ public class SecondComp {
 
     //---------------------------------
 
-    //@Transactional(Transactional.TxType.REQUIRES_NEW)
-    @Transactional(Transactional.TxType.REQUIRED)
+    @Transactional(Transactional.TxType.REQUIRES_NEW)
+    //@Transactional(Transactional.TxType.REQUIRED)
     public String sayHello() {
         return toString() + " Tx: " + tx.getTransactionKey();
     }
